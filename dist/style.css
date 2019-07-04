@@ -1,6 +1,48 @@
-div{
-    width: 100px;
-    height: 100px;
-    background-color: #e67e22;
-    box-shadow: 1px 1px 3px black;
+body{
+    margin: 0;
+    background-image: url("https://foodrevolution.org/wp-content/uploads/2018/03/blog-featured_healthy_foods-20180306.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+input{
+    margin-left: 1%;
+    width: 70%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border : 1px solid rgb(111, 119, 75);
+}
+button{
+    width: 12%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-weight: bolder;
+    background-color: #F4B430;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px rgb(0, 0, 0);
+ }
+ 
+button:hover {background-color: #fa6060}
+ 
+button:active {
+  background-color: #ffbe5c;
+ 
+}
+#container{
+    display: grid ;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr
+}
+.recipeContainer{
+    background-image: url('https://hdwallsource.com/img/2014/10/wood-floor-texture-5477-5604-hd-wallpapers.jpg');
+    align-items: center;
+    margin: 50px;
+    margin-left: 115px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 9px #999;
+    background-color: rgb(247, 250, 57);
 }

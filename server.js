@@ -6,15 +6,6 @@ app.use(express.static(path.join(__dirname, 'dist')))
 app.use(express.static(path.join(__dirname, 'node_modules')))
 
 
-// $.get('#search').on('click' , function(){
-//     const ing = $('#input').val
-//     $.get(`localhost:8080/recipe/oil` , function(result){
-//         // $('body').append(`<div class="recipe">${result}</div>`)
-//         console.log(result)
-//     })
-// })
-
-
 
 app.get('/recipe/:ingredient' , function(req , res){
     const ingredient = req.params
